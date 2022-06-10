@@ -1,83 +1,260 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@300;400&display=swap');
-
-* {
-
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    text-decoration: none;
-
 }
 
-body {
-
-    font-size: 100%;
-
-}
-
-.cabecalho {
-
+header{
+    width: 100%;
+    background-color: #B7E0DA;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    padding: 24px;
-    background: #B7E0DA;
-    height: 140px;
-
+    padding: 20px 0;
 }
 
-.cabecalho-imagem {
-
-    margin-left: 150px;
-    height: 252px;
-    margin-top: 125px;
-
-}
-
-.cabecalho-menu {
-
-    display: flex;
-    gap: 50px;
-
-}
-
-.cabecalho-item {
-
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-
-}
-
-.cabecalho-login {
-
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-
-}
-
-.cabecalho-cadastro {
-
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-
-}
-
-.conteudo {
-
-    margin-bottom: 48px;
+.logo-imagem{
+    width: 281px;
+    height: 100px;
     
 }
 
-.conteudo-escrita {
+.container-logo{
+    display: flex;
+    align-items: center;
+}
 
-    word-spacing: 449px;
-    font-family: 'Courgette', cursive;
-    font-weight: 400;
-    font-size: 75px;
-    color: #B7E0DA;
+.logo-texto{
+    margin-left: 20px;
+    color: black;
+}
 
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a{
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 10px 15px;
+}
+
+.menu li a:hover{
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+.login{
+    font-size: 23px;
+}
+
+.cadastro{
+    font-size: 24px;
+}
+
+.home{
+position: absolute;
+width: 100%;
+height: 94px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 4px;
+
+color: #B7E0DA;
+
+}
+
+.azul{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 412px;
+    
+    background: #57B7EA;
+}
+
+.rosa{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 482px;
+    
+    background: #F94D89;
+}
+
+.verde{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 552px;
+    
+    background: #72C74E;
+}
+
+.lindinha{
+    position: absolute;
+    width: 175px;
+    height: 200px;
+    top: 412px;
+}
+
+.florzinha{
+    position: absolute;
+    width: 125px;
+    height: 250px;
+    top: 380px;
+}
+
+.docinho{
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    top: 420px;
+
+}
+
+ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.no-square{
+    position: absolute;
+    width: 1134px;
+    height: 252px;
+    left: 360px;
+    top: 780px;
+
+    background: #B7E0DA;
+    border-radius: 53px;
+}
+
+.utonio{
+    transform: scaleX(-1);
+    position: absolute;
+width: 280px;
+height: 210px;
+left: 15px;
+top: 20px;
+}
+
+h3{
+    position: absolute;
+width: 865px;
+height: 145px;
+left: 180px;
+top: 90px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.l-content{
+    position: absolute;
+width: 100%;
+height: 270px;
+left: 0px;
+top: 1212px;
+
+background: #57B7EA;
+}
+
+.f-content{
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    left: 0px;
+    top: 1690px;
+    
+    background: #F94D89;
+}
+
+.d-content{
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    left: 0px;
+    top: 2168px;
+    
+    background: #72C74E;
+}
+
+.l-position{
+    position: absolute;
+    width: 221.42px;
+    height: 210px;
+    left: 120px;
+    top: 1242px;
+    
+    background: url(image.png);
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+}
+
+.f-position{
+    position: absolute;
+    width: 130px;
+    height: 239px;
+    left: 124px;
+    top: 1705px;
+
+    background: url(image.png);
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+}
+
+.d-position{
+    position: absolute;
+    width: 190px;
+    height: 216px;
+    left: 95px;
+    top: 2195px;
+
+    background: url(Docinho-removebg-preview.png);
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+}
+
+.alinhar-l{
+    position: absolute;
+    left: 675px;
+    top: 1252px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alinhar-f{
+    position: absolute;
+    left: 675px;
+    top: 1720px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alinhar-d{
+    position: absolute;
+    left: 675px;
+    top: 2200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape{
+    position: absolute;
+    width: 100%;
+    height: 189px;
+    left: 0px;
+    top: 2750px;
+
+    background: #B7E0DA;
 }
