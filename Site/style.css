@@ -40,10 +40,12 @@ header{
     color: black;
     text-transform: capitalize;
     padding: 10px 15px;
+    cursor: pointer;
 }
 
 .menu li a:hover{
     background-color: rgba(255, 255, 255, 0.459);
+  
 }
 
 .login{
@@ -63,7 +65,7 @@ top: 260px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
-font-size: 20px;
+font-size: 40px;
 line-height: 4px;
 
 color: #B7E0DA;
@@ -201,7 +203,15 @@ background: #57B7EA;
     
     background: url(image.png);
     filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+    transition: all0.5s;
+    cursor: pointer;
 }
+
+.l-position:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 
 .f-position{
     position: absolute;
@@ -212,7 +222,15 @@ background: #57B7EA;
 
     background: url(image.png);
     filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+    transition: all0.5s;
+    cursor: pointer;
 }
+
+.f-position:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 
 .d-position{
     position: absolute;
@@ -223,7 +241,15 @@ background: #57B7EA;
 
     background: url(Docinho-removebg-preview.png);
     filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+    transition: all0.5s;
+    cursor: pointer;
 }
+
+.d-position:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 
 .alinhar-l{
     position: absolute;
@@ -257,4 +283,11 @@ background: #57B7EA;
     top: 2750px;
 
     background: #B7E0DA;
+}
+
+.rodape h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
